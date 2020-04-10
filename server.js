@@ -56,7 +56,6 @@ app.post('/api/v1/send/quizzo', function (req, res, next) {
    pusher.trigger('quizzo-channel', 'quizzo-event', {
       "quizzo": quizzo
    })
-   next()
    return res.json(quizzo)
 })
 
