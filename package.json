@@ -1,6 +1,6 @@
 {
   "name": "dragon-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "quizoo app server for pusher notifications",
   "main": "server.js",
   "scripts": {
